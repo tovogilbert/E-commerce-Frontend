@@ -7,7 +7,7 @@ const Index = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <TopBar />    
-      <main className="flex-grow pt-16 bg-white">
+      <main className="flex-grow pt-16 bg-white xl:px-45">
         <Outlet />
       </main>
       <Footer /> 

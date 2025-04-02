@@ -16,7 +16,7 @@ const CartButton = ({ itemCount }) => {
 
 const TopBar = () => {
   return (
-    <header className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-5 py-3 bg-white border-b border-gray-200 text-sm text-zinc-800">
+    <header className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-5 py-3 bg-white border-b border-gray-200 text-sm text-zinc-800 xl:px-50">
       <div className="flex items-center">
         <img className="mr-1 rounded-full" src={logo} alt="Logo" />
       </div>

@@ -5,9 +5,9 @@ import logo1 from '../assets/images/logo1.svg';
 
 const Footer = () => {
   return (
-    <div className="bg-black text-white p-6 text-left">
+    <div className="bg-black text-white p-6 text-left lg:px-50 lg:h-40">
        <div className='flex flex-row flex-nowrap items-center justify-between'>
-        <img src={logo1} alt="" srcset="" />            
+        <img src={logo1} alt="" srcSet="" />            
         <div className="flex justify-center space-x-4">
           <FaInstagram className='bg-gray-800 p-1.5 rounded-full' size={25} />
           <FaTwitter className='bg-gray-800 p-1.5 rounded-full' size={25} />
