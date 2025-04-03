@@ -1,6 +1,6 @@
 import React from "react";
 import { FaShoppingCart } from "react-icons/fa";
-import logo from '../assets/images/logo.svg';
+import logo from '../assets/images/logo/logo.svg';
 
 const CartButton = ({ itemCount }) => {
   return (

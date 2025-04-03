@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FaChevronRight, FaChevronLeft, FaArrowRight } from "react-icons/fa";
 import { shoes } from '../../faker/Data';
 import ShoeCard from './components/ShoeCard';
-import greenShoe from '../../assets/images/greenShoe.svg';
+import greenShoe from '../../assets/images/home/greenShoe.svg';
 
 const Home = () => {
   const [startIndex, setStartIndex] = useState(0);

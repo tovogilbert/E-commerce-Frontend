@@ -1,8 +1,7 @@
-import greenShoe from '../assets/images/greenShoe.svg';
-import whiteShoe2 from '../assets/images/whiteShoe2.svg';
-import whiteShoes from '../assets/images/whiteShoes.png';
-import blueShoe from '../assets/images/blueShoe.svg';
-import grayShoe from '../assets/images/grayShoe.svg';
+import whiteShoe2 from '../assets/images/home/whiteShoe2.svg';
+import whiteShoes from '../assets/images/home/whiteShoes.png';
+import blueShoe from '../assets/images/home/blueShoe.svg';
+import grayShoe from '../assets/images/home/grayShoe.svg';
 
 export const shoes = [
   { id: 1, name: "Off-white", description: "Out Of Office \"Ooo\" sneakers", price: "$775", image: blueShoe },
